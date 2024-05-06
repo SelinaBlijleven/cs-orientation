@@ -1,0 +1,55 @@
+id,parent_id,name,alternate_names,related_to,description
+computer_science,,Computer Science,,,The field of Computer Science is very broad. Feel free to explore!
+artificial_intelligence,computer_science,Artificial Intelligence,AI,data_science,Artificial Intelligence is the field that concerns itself with intelligent behaviour in humans and computer systems.
+business_it_management,computer_science,Business IT Management,,,Business IT management is a branch of Computer Science that prioritises management and consultancy in IT.
+cybersecurity_cloud,computer_science,Cybersecurity & Cloud,,,A branch in the Computer Science that centers around security and management of cloud systems.
+software_development,computer_science,Software Development,Software Engineering,"web_development, game_development, hardware_engineering","Software Development is the branch of Computer Science that focuses on building all kinds of applications, including dashboards, computer or phone applications."
+hardware_engineering,computer_science,Hardware Engineering,Embedded Systems Engineering,,Hardware Engineering is the practice of working with hardware and lower level code. This is also the field where embedded systems (think IoT) are implemented.
+game_development,computer_science,Game Development,,,Game Development is a branch of Computer Science that focuses on the development of video games. Programming within this branch has a lot of overlap with Software Development especially.
+web_development,computer_science,Web Development,Android/iOS Developer,software_development,Web Developers create web applications (which can often be ported to mobile devices) to provide services over the internet. This branch is closely related to software development and they are often grouped together.
+data_science,computer_science,Data Science,,artificial_intelligence,
+robotics,computer_science,Robotics,,"artificial_intelligence, hardware_development, software_development","Robotics combines several disciplines to create robot hardware and software,"
+project_management,business_it_management,Project Management,,,
+agile_methodology,project_management,Agile Methodes,,,
+scrum,agile_methodology,Scrum,,,Scrum is a popular framework for IT project management. 
+natural_language_processing,artificial_intelligence,Natural Language Processing,NLP,machine_learning,
+computer_vision,artificial_intelligence,Computer Vision,,machine_learning,
+machine_learning,artificial_intelligence,Machine Learning,,,
+ai_math,artificial_intelligence,Math in AI,,,
+ai_linear_algebra,artificial_intelligence,Linear Algebra,,,
+ai_history,artificial_intelligence,History of AI,,ai_ethics,
+ai_ethics,artificial_intelligence,AI Ethics,,ai_history,
+supervised_learning,machine_learning,Supervised Learning,,unsupervised_learning,
+unsupervised_learning,machine_learning,Unsupervised Learning,,supervised_learning,
+semi_supervised_learning,machine_learning,Semi-supervised Learning,,"unsupervised_learning, supervised_learning",
+reinforcement_learning,machine_learning,Reinforcement Learning,,game_development,
+supervised_regression,supervised_learning,Supervised Regression Methods,,supervised_classification,
+supervised_classification,supervised_learning,Supervised Classification Methods,,supervised_regression,
+clustering,unsupervised_learning,Clustering Methods,,semi_supervised_learning,
+qlearning,reinforcement_learning,Q-Learning,,,
+robot_locomotion,robotics,Robot Locomotion,,,
+robot_manipulation,robotics,Environment Manipulation,,,
+robot_perception,robotics,Robot Perception,Computer Vision,computer_vision,
+robot_human_robot_interaction,robotics,Human-Robot Interaction,HRI,,
+swarm_robotics,robotics,Swarm Robotics,,,
+multi_agent_simulation,computational_science,Multi-Agent Simulation,,"artificial_intelligence,robotics",
+computational_science,computer_science,Computational Science,,artificial_intelligence,
+ds_statistics,data_science,Statistics in Data Science,,,
+consultancy,business_it_management,Consultancy,,,
+hacking,cybersecurity_cloud,Hacking,,,
+ethical_hacking,hacking,Ethical Hacking,,,
+lean_methodology,agile_methodology,LEAN,,,
+javascript,web_development,JavaScript,JS,,
+javascript_frameworks,javascript,JavaScript Frameworks,,,
+react_js,javascript_frameworks,React,,,
+vue_js,javascript_frameworks,Vue,,,
+next_js,javascript_frameworks,NextJS,,,
+databases,software_development,Databases,,"artificial_intelligence,data_science,software_development",
+sql,databases,SQL,Structured Query Language,,
+modelling,software_development,Software Modelleren,,,
+game_engines,game_development,Game Engines,,,
+unity_engine,game_engines,Unity,,unreal_engine,
+unreal_engine,game_engines,Unreal Engine,,unity_engine,
+game_programming,game_development,Game Programming,,,
+game_art,game_development,Game Art,,,
+3d_modelling,game_development,3D Modelling,,,
